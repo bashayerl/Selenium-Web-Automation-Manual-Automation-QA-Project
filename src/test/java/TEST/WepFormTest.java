@@ -28,7 +28,7 @@ public class WepFormTest {
         options.addArguments("--disable-gpu");
         options.addArguments("--window-size=1920,1080");
         driver = new ChromeDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(1500));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 
     }
@@ -53,10 +53,10 @@ public class WepFormTest {
         driver.findElement(By.xpath("/html/body/main/div/form/div/div[2]/label[2]/input")).sendKeys("Seattle");
 
 //File upload
-        WebElement file = driver.findElement(By.name("my-file"));
-        String filePath = System.getProperty("user.dir")
-                + "/ISTQB_CTFL_Syllabus_v4.0.1.pdf";
-        file.sendKeys(filePath);
+//        WebElement file = driver.findElement(By.name("my-file"));
+//        String filePath = System.getProperty("user.dir")
+//                + "/ISTQB_CTFL_Syllabus_v4.0.1.pdf";
+//        file.sendKeys(filePath);
 
 //Checkbox
         var checkbox = driver.findElement(By.xpath("//*[@id=\"my-check-1\"]"));
