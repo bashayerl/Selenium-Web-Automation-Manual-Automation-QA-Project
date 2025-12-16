@@ -47,7 +47,9 @@ public class WepFormTest {
 
 //File upload
         WebElement file = driver.findElement(By.name("my-file"));
-        file.sendKeys("C:\\Users\\basha\\OneDrive\\Desktop\\ISTQB_CTFL_Syllabus_v4.0.1.pdf");
+        String filePath = System.getProperty("user.dir")
+                + "/ISTQB_CTFL_Syllabus_v4.0.1.pdf";
+        file.sendKeys(filePath);
 
 //Checkbox
         var checkbox = driver.findElement(By.xpath("//*[@id=\"my-check-1\"]"));
