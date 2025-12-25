@@ -1,0 +1,16 @@
+# 🧪 Test Cases
+
+All manual test cases for the Login feature were designed and documented in Notion.
+
+🔗 View Test Cases:
+https://www.notion.so/Test-Cases-2d4f2a66eec08056af30f3a5ebab8722?source=copy_link
+
+## Scope
+- Login page
+- Valid login
+- Invalid login
+- Error message validation
+- Login button multiple clicks
+
+## Notes
+- Test cases were converted into automated tests using Selenium + TestNG.
