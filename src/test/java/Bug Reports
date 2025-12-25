@@ -1,0 +1,13 @@
+# 🐞 Bug Reports
+
+All discovered bugs were documented and tracked in Notion.
+
+🔗 View Bug Reports:
+https://www.notion.so/Bug-report-2d4f2a66eec080298094c9a5783e9022?source=copy_link
+
+## Reported Bugs
+- BR-004: Login button allows multiple clicks
+
+
+## Status
+- Some bugs are still open and reflected in skipped/failed automation tests.
